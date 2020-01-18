@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
+        <header>
             <h1>Nikhil Pateel</h1>
             <p> Tagline</p>
-        </div> 
+        </header>
         
         <nav>
             <div id="navbar">
@@ -22,29 +22,82 @@
             </div>
         </nav>
 
-        <div class="content">
-            <div class="resume">
+        <main class="content">
+            <article class="resume">
                 <h1> Resume</h1>
-                <div class="education white-back">
+                <section class="education white-back">
                     <h2>Education</h2> 
-                </div>
-                <div class="work red-back">
+                    <div class="row">
+                        <div class="col-10">
+                            <h3>University of Maryland, College Park</h3>
+                            <p class="description">
+                                Dual B.S. in Computer Science and Math<br>
+                                GPA: 4.0
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <p class="side-info">
+                                2018-2022<br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <section class="coursework">
+                        <h3> Coursework</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <section class="Computer Science">
+                                    <h4>Computer Science</h4>
+                                    <ul class="course-list">
+                                        <li class="course-planned">Machine Learning (planned)</li>
+                                        <li class="course-planned">Compilers (planned)</li>
+                                        <li class="course-planned">Computer Networks (planned)</li>
+                                        <li class="course">Programming Languages</li>
+                                        <li class="course">Algorithms Design</li>
+                                        <li class="course">Intro to Data Science</li>
+                                        <li class="course">Intro to Algorithms</li>
+                                        <li class="course">Intro to Computer Systems</li>
+                                        <li class="course">Object Oriented Programming (I + II)</li>
+                                </section>
+
+                            </div>
+                            <div class="col-6">
+                                <section class="Math">
+                                    <h4>Math</h4>
+                                    <ul class="course-list">
+                                        <li class="course-planned">Abstract Algebra (planned)</li>
+                                        <li class="course">Real Analysis</li>
+                                        <li class="course">Numerical Analysis I</li>
+                                        <li class="course">Applications of Linear Algebra</li>
+                                        <li class="course">Probability Theory</li>
+                                        <li class="course">Statistical Theory</li>
+                                        <li class="course">Multivariable Calculus</li>
+                                        <li class="course">Differential Equations</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End Coursework -->
+                </section>
+                <!-- End Education-->
+                <section class="work red-back">
                     <h2>Work Experience</h2>
-                </div>
-                <div class="projects white-back">
+                </section>
+                <section class="projects white-back">
                     <h2>Projects</h2> 
-                </div>
-            </div>
+                </section>
+            </article>
             
-            <div class="contact red-back">
+            <section class="contact red-back">
                 <h1>Conctact</h1>
 
-            </div>
-        </div>
+            </section>
+        </main>
 
-        <div class="footer">
+        <footer>
             Copyright 2020 &copy; Nikhil Pateel 
-        </div>
+        </footer>  
 
     </div>
 </body>
