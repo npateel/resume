@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    /*
+    background-color:  #ff9da1;
+    color: #fefefe; 
+    */
+ 
+}
+
+.white-back {
+    background-color: #fefefe;
+    color: #ff9da1
+}
+
