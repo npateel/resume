@@ -7,6 +7,8 @@ body {
     font-family: sans-serif;
     margin: 0px 0px;
     padding: 0px 0px;
+    background-color: #ffffff;
+    color: #333333;
     /*
     background-color:  #ff9da1;
     color: #fefefe; 
@@ -14,8 +16,57 @@ body {
  
 }
 
+
+
+
+header {
+    padding: 10%;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    background: #a6f2cc;
+    opacity: 0.9
+}
+
+
+
+
+
+nav {
+    padding: 0px 40px;
+    overflow: auto;
+    background-color: #333333;
+    transition: all 1s linear;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+
+}
+
+nav.sticky {
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .container {
+    padding-top: 50px;
+}
+
+
+/*
 .white-back {
     background-color: #fefefe;
     color: #ff9da1
 }
+
+*/
 

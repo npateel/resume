@@ -2,7 +2,9 @@
     width: 100%;
 }
 
-
+main {
+    padding: 0% 10%;
+}
 
 
 .row::after {
@@ -32,6 +34,10 @@
 
     .side-info {
         display: block;
+    }
+
+    main {
+        padding: 0% 15%
     }
 
 }
